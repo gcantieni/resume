@@ -1,0 +1,12 @@
+# Fdb version 3
+["pdflatex"] 1538853144 "friggeri-template.tex" "friggeri-template.pdf" "friggeri-template" 1538853144
+  "/etc/texmf/web2c/texmf.cnf" 1532873944 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1538852101 858824 4e75f54ecd648517848620731acc75eb ""
+  "cv-style.cls" 0 -1 0 ""
+  "friggeri-template.aux" 1538853144 8 a94a2480d3289e625eea47cd1b285758 ""
+  "friggeri-template.tex" 1538853041 5602 3cec02059fff43c1007a130c6c5800ad ""
+  (generated)
+  "friggeri-template.pdf"
+  "friggeri-template.log"
