@@ -10,17 +10,17 @@
 \usepackage{titling}
 \usepackage{multicol}
 \usepackage[margin=0.5in]{geometry}
-\addtolength{\topmargin}{-.25in}
+\addtolength{\topmargin}{-.29in}
 
 
 % redefine commands and set options
 \renewcommand{\maketitle}{
 	\begin{center}
 		{\huge\bfseries Gus Cantieni}
-		\vspace{0.25em}
+		\vspace{0.20em}
 
 		gus\_cantieni@brown.edu --- github.com/gcantieni
-
+		\vspace{-1.50em}
 	\end{center}
 }
 
@@ -37,7 +37,7 @@
 
 % SUBSECTION
 \titlespacing{\subsection}
-{0em} {1em} {0em}
+{0em} {0.5em} {0em}
 \titleformat{\subsection}
 {\Large\bfseries\lowercase}
 {}
@@ -58,6 +58,7 @@
 %\headsep=0pt %Increase to increase white space in between headers and the top of the page
 %\textheight=9.0in %How tall the text body is allowed to be on each page
 \itemsep=0in
+\topsep=0pt
 \parsep=0in
 
 \begin{document}
@@ -81,14 +82,14 @@
 
 \section{Work experience} 
 \subsection{Summer Software Engineer} 
-\textbf{Open Learning Exchange} Cambridge, MA \hfill \textit{May--September 2018}
+\textbf{Open Learning Exchange} Cambridge, MA \hfill \textit{May 2018--September 2018}
 \begin{itemize}
-	\item Designed scalable loading interface for Angular app 
-	\item Refactored and debugged password validation 
-	\item Gained familiarity with Git, Angular 6, CouchDB, Docker, and Vagrant
 	\item Pitched app at Cambridge Innovation Center conference , drawing in seven potential clients
+	\item Gained a familiarity with an agile and entrepreneurial working environment
+	\item Working remotely honed self discipline and self-motivation
+	\item Designed scalable loading interface and password validation for Angular app, used in all of the sites currently running pages 
+	\item Gained familiarity with Git, Angular 6, CouchDB, Docker, and Vagrant
 \end{itemize}
-
 
 \subsection{Computer Systems Teacher's Assistant}
 \textbf{Brown University} Providence, RI \hfill \textit{September 2018--present}
@@ -110,6 +111,14 @@
 
 \section{Projects}
 
+\subsection{GAN} 
+\textbf{Brown University} \hfill \textit{November 2018}
+\begin{itemize}
+	\item Designed and trained an adversarial neural network written in Python and Tensorflow that learned to generate celebrity faces
+	\item Learned to use Python utilities to parse data, and Tensorflow's API to train multi-layered neural networks
+	\item Analyzed and quantized the effects of different combinations of neural-net architectures and parameter choices, eventually producing frighteningly uncanny celebrity faces
+\end{itemize}
+
 \subsection{TCP}
 \textbf{Brown University} \hfill \textit{November 2018}
 \begin{itemize}
@@ -118,25 +127,16 @@
 	\item Created a distributed system of nodes with virtual IP addresses and used the Routing Internet Protocol (RIP) to populate their routing tables and find remote addresses
 	\item Overcame subtle concurrency-related bugs and deadlocks through persistent and systematic debugging 
 	\item Collaborated with a tight-knit team of students, keeping an organized list of bugs and suggesting methods to divide and conquer
-	\item Learned Golang and the use of channel oriented concurrency
 \end{itemize}
 
 \subsection{Hive Mind} 
-\textbf{Peronal project} \hfill August 2018
+\textbf{Peronal project} \hfill \textit{August 2018}
 \begin{itemize}
 	\item Self-taught the syntax and tooling of modern JavaScript by implementing a simple strategy game 
 	\item Explored both object oriented and functional styles 
-	\item Experimented with different JavaScript libraries and approaches, learning how to host a webpage, bundle and transpile JavaScript files, and incorporate npm (node package manager) libraries  
+	\item Experimented with different JavaScript libraries and approaches, learning how to host a webpage, bundle and transpile JavaScript files, and apply end-to-end and unit testing 
 \end{itemize}
 
-\subsection{Oasis} 
-\textbf{Personal project} \hfill \textit{October 2017}
-\begin{itemize}
-	\item Spearheaded Android development and conceptual design for app that connects those who have
-experienced personal tragedies
-	\item Unsupervised machine learning algorithm connects users of similar background and demographic
-	\item Represented Brown in hackathon and competed against more than 500 students
-\end{itemize}
 
 
 
