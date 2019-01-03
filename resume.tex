@@ -19,7 +19,7 @@
 		{\huge\bfseries Gus Cantieni}
 		\vspace{0.20em}
 
-		gus\_cantieni@brown.edu --- github.com/gcantieni
+		gus\_cantieni@brown.edu -- github.com/gcantieni -- 413-522-4103 
 		\vspace{-1.50em}
 	\end{center}
 }
@@ -30,7 +30,7 @@
 \titlespacing{\section}
 {0em} {0em} {0.15em}
 \titleformat{\section}
-{\huge\bfseries\lowercase}
+{\huge\bfseries}%\lowercase}
 {}
 {1em}
 {}[\titlerule]
@@ -39,7 +39,7 @@
 \titlespacing{\subsection}
 {0em} {0.5em} {0em}
 \titleformat{\subsection}
-{\Large\bfseries\lowercase}
+{\Large\bfseries}%\lowercase}
 {}
 {0em}
 {}
@@ -64,25 +64,28 @@
 \begin{document}
 \maketitle
 \section{Education}
+\vspace{0.20em}
 %\begin{multicols}{2}	
 \begin{minipage}{20em}
-	\textbf{Brown University} B.S. in Computer Science
+	\textbf{Brown University}: B.S. in Computer Science
 
-	\textbf{Class} 2020
+	\textbf{Class}: 2020
 
-	\textbf{GPA} 3.9
+	\textbf{GPA}: 3.9
+
+	\vspace{0.5em}
 
 	%\columnbreak
 \end{minipage}
 \begin{minipage}{25em}
 
-	\textbf{Relevant Coursework} Computer Networks, Deep Learning, Object Oriented Programming, Computer Systems, Logic for Systems
+	\textbf{Relevant Coursework}: Algorithms and Data Structures, Computer Networks, Deep Learning, Object Oriented Programming, Computer Systems, Logic for Systems
 \end{minipage}
 %\end{multicols}
 
-\section{Work experience} 
+\section{Work Experience} 
 \subsection{Summer Software Engineer} 
-\textbf{Open Learning Exchange} Cambridge, MA \hfill \textit{May 2018--September 2018}
+\textbf{Open Learning Exchange} -- Cambridge, MA \hfill \textit{May 2018--September 2018}
 \begin{itemize}
 	\item Pitched app at Cambridge Innovation Center conference , drawing in seven potential clients
 	\item Gained a familiarity with an agile and entrepreneurial working environment
@@ -92,12 +95,12 @@
 \end{itemize}
 
 \subsection{Computer Systems Teacher's Assistant}
-\textbf{Brown University} Providence, RI \hfill \textit{September 2018--present}
+\textbf{Brown University} -- Providence, RI \hfill \textit{September 2018--present}
 
 \begin{itemize}
 	\item Helped three hundred students with tricky bugs and conceptual questions during weekly lab and code hours
+	\item Worked extensively in C, x86, with a focus on processes, multi-threading, mutexes, and signal handling
 	\item Assessed students' performance and offered feedback during weekly gradings
-	\item Gained a thorough understanding of C, x86, processes, multi-threading, mutexes, and signal handling
 \end{itemize}
 
 %\subsection{Dining Hall Manager}
@@ -110,26 +113,25 @@
 %\end{itemize}
 
 \section{Projects}
+\subsection{TCP}
+\textbf{Brown University} -- Providence, RI \hfill \textit{November 2018}
+\begin{itemize}
+	\item Implemented Transfer Control Protocol, the backbone transport protocol of the modern internet 
+	\item Collaborated with a tight-knit team of students, keeping an organized list of bugs and suggesting methods to divide and conquer
+	\item Built a reliable and fault-tolerant system using ACKs, timeoutes, and retransmission
+	\item Created a distributed system of nodes with virtual IP addresses and used the Routing Internet Protocol (RIP) to populate their routing tables and find remote addresses
+	\item Overcame subtle concurrency-related bugs and deadlocks through persistent and systematic debugging 
+\end{itemize}
 
 \subsection{GAN} 
-\textbf{Brown University} \hfill \textit{November 2018}
+\textbf{Brown University} -- Providence, RI \hfill \textit{November 2018}
 \begin{itemize}
 	\item Designed and trained an adversarial neural network written in Python and Tensorflow that learned to generate celebrity faces
 	\item Learned to use Python utilities to parse data, and Tensorflow's API to train multi-layered neural networks
 	\item Analyzed and quantized the effects of different combinations of neural-net architectures and parameter choices, eventually producing frighteningly uncanny celebrity faces
 \end{itemize}
 
-\subsection{TCP}
-\textbf{Brown University} \hfill \textit{November 2018}
-\begin{itemize}
-	\item Implemented Transfer Control Protocol, the backbone transport protocol of the modern internet 
-	\item Built a reliable and fault-tolerant system using ACKs, timeoutes, and retransmission
-	\item Created a distributed system of nodes with virtual IP addresses and used the Routing Internet Protocol (RIP) to populate their routing tables and find remote addresses
-	\item Overcame subtle concurrency-related bugs and deadlocks through persistent and systematic debugging 
-	\item Collaborated with a tight-knit team of students, keeping an organized list of bugs and suggesting methods to divide and conquer
-\end{itemize}
-
-\subsection{Hive Mind} 
+\subsection{Hive-Mind} 
 \textbf{Peronal project} \hfill \textit{August 2018}
 \begin{itemize}
 	\item Self-taught the syntax and tooling of modern JavaScript by implementing a simple strategy game 
@@ -143,10 +145,10 @@
 \section{Skills}
 \begin{minipage}{20em}
 	\subsection{Languages}
-		Golang, Python, JavaScript, C, Java
+		C, Java, Golang, Python, JavaScript,
 \end{minipage}
 \begin{minipage}{25em}
 	\subsection{Technologies}
-	Linux, \LaTeX , Angular 6, Vim, Git 	
+	Linux, Bash, \LaTeX , Angular 6, Vim, Git 	
 \end{minipage}
 \end{document}
